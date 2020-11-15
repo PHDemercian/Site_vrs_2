@@ -1,0 +1,87 @@
+/*CONTEÚDO DOS ITENS ADICIONADOS NO CARRINHO*/
+/*Para alterar as palavras "BR ENTREGA" e "FORMAS DE PAGAMENTOS"*/
+.txt{
+	text-transform: uppercase;
+	/*Transforma todo texto em maiúsculo*/
+	text-align: center;
+	/*Para centralizar as palavras na tela*/
+	margin-top: 12.5px;
+	/*Para mexer no espaçamento externo de cima*/
+	color: #FFFFFF;
+	/*Para mudar a cor das palavras*/
+}
+
+/*Espaço ENTRE a FAIXA AMARELA e a FAIXA VERDE*/
+.entrega{
+	height: 900px;
+	background-color: none;
+}
+
+
+/*Para adicionar o fundo amarelo do "---BR ENTREGA---"*/
+.br-entrega{	
+	height:50px;
+	background-color: #F9C411;
+	font-family: Mostra Nuova;
+}
+
+/*-------------------|DAQUI PARA BAIXO, É O MIOLO DA PÁGINA|----------------------*/
+
+/*Para mexer no TÍTULO: 'Seu Pedido'*/
+h4{
+	text-align: center;
+	font-size: 25px;
+	font-family: Mostra Nuova;
+	color: #FFFFFF;
+}
+/*Para mexer no fundo do TÍTULO*/
+.br-tit{
+	background-color: #41AB6F;
+	margin-top: 100px;
+	width: 180px;
+	height: 35px;
+	margin-left: 43%;
+}
+
+/*Para alterar a FRASE ACIMA do item adicionado*/
+.adc-ao{
+	margin-left: 230px;
+}
+
+/*Para mexer na borda pontilhada*/
+.iten-adc{
+	padding-left: 320px;
+	border-style: dotted;
+	border-color: #2B80E6;
+	border-radius: 15px;
+	padding-top: 145px;
+	padding-bottom: 145px;
+	margin-top: 140px;
+	margin-left: 28px;
+}
+
+/*Para alinhar o ícone do prato com o nome da comida*/
+.prt{
+	font-family: Mostra Nuova;
+	vertical-align: middle;
+	display: block;
+}
+
+/*Para alterar o tamanho do ícone do parto*/
+.cmd{
+	width: 70px;
+}
+
+/*Para deixar ALINHADO o PRATO/FEIJOADA com o PREÇO*/
+.iten1{
+	display: inline;
+}
+
+/*-------------------|DAQUI PARA CIMA, É O MIOLO DA PÁGINA|----------------------*/
+
+/*Para adicionar o fundo verde do "---FORMAS DE PAGAMENTO---"*/
+.form-pag{
+	height:50px;
+	background-color: #248A47;
+	font-family: Mostra Nuova;
+}

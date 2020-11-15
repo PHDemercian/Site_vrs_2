@@ -1,0 +1,106 @@
+/*Para alterar as palavras "BR ENTREGA" e "FORMAS DE PAGAMENTOS"*/
+.txt{
+	text-transform: uppercase;
+	/*Transforma todo texto em maiúsculo*/
+	text-align: center;
+	/*Para centralizar as palavras na tela*/
+	margin-top: 12.5px;
+	/*Para mexer no espaçamento externo de cima*/
+	color: #FFFFFF;
+	/*Para mudar a cor das palavras*/
+}
+
+/*Para adicionar o fundo amarelo do "---BR ENTREGA---"*/
+.br-entrega{	
+	height:50px;
+	background-color: #F9C411;
+	font-family: Mostra Nuova;
+}
+
+/*-------------------|DAQUI PARA BAIXO, É O MIOLO DA PÁGINA|----------------------*/
+
+/*Espaço onde será colocado o conteúdo do miolo*/
+.entrega{
+	height: 900px;
+	background-color: none;
+}
+
+/*Para mexer nos textos das DUAS COLUNAS*/
+.br-txt{
+	text-align: center;
+	font-size: 25px;
+	font-family: Roboto;
+	color: #41AB6F;
+}
+
+/*LADO ESQUERDO*/
+/*Para criar uma borda e centralizar o conteúdo*/
+.ja-disp{
+	/*Para mexer nos números*/
+	text-align: center;
+	font-size: 25px;
+	font-family: Roboto;
+	/*Para adicionar e mexer na borda*/
+	border: 2px solid #2B80E6;
+	padding-top: 250px;
+	padding-bottom: 200px;
+	margin-top: 100px;
+	margin-left: 28px;
+}
+
+/*Para alinhar os ícones de telefone com os números*/
+.tel{
+	vertical-align: middle;
+	/*Para tirar a marcação da lista*/
+	display: block;
+}
+
+/*Para alterar o tamanho dos ícones*/
+.nume{
+	width: 28px;
+}
+
+/*LADO DIREITO*/
+/*Para mexer no TÍTULO: "Seu Pedido" da página do carrinho vazio*/
+h4{
+	text-align: center;
+	font-size: 25px;
+	font-family: Mostra Nuova;
+	color: #FFFFFF;
+	padding-top: 5px;
+}
+
+/*Para mexer no fundo do TÍTULO*/
+.br-tit{
+	background-color: #41AB6F;
+	margin-top: 15.65%;
+	height: 40px;
+}
+/*Para alterar o tamanho do CARRINHO DE DELIVERY e centraliza-lo*/
+img.displayed{
+	width: 150px;
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 28%;
+}
+
+/*Para mexer no BOTÃO "adicionar item"*/
+.botao{
+	margin: 10px;
+	background-color: #2B80E6;
+	border: none;
+	border-radius: 6px;
+	padding: 5px 5px;
+	font-family: Mostra Nuova;
+	color: white;
+}
+
+/*-------------------|DAQUI PARA CIMA, É O MIOLO DA PÁGINA|----------------------*/
+
+/*Para adicionar o fundo verde do "---FORMAS DE PAGAMENTO---"*/
+.form-pag{
+	height:50px;
+	background-color: #248A47;
+	font-family: Mostra Nuova;
+}
